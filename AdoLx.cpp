@@ -1,9 +1,6 @@
-// AdoLx.cpp: Version 1.1£¨Ö§³ÖUnicode¡¢Ö§³ÖVS2015ºÍVC6±àÒë»·¾³£©
-//Ö§³ÖUnicode¡¢Ö§³ÖAccess¡¢SQLServerºÍOracleÈı´óÊı¾İ¿â
-//Author:ÂÀöÎÀÏÊ¦·â×°Àà 
-//ÂÀöÎÀÏÊ¦Î¢²©£ºhttp://t.qq.com/richmain ÂÀöÎÀÏÊ¦Î¢ĞÅ£ºrichmain
-//¸ü¶à¸üºÃµÄÊÇÏîÄ¿¿ª·¢ÊÓÆµ½Ì³Ì£¬ÇëµÇÂ¼http://www.baojy.com
-//////////////////////////////////////////////////////////////////////
+// AdoLx.cpp: Version 1.1ï¼ˆæ”¯æŒUnicodeã€æ”¯æŒVS2015å’ŒVC6ç¼–è¯‘ç¯å¢ƒï¼‰
+//æ”¯æŒUnicodeã€æ”¯æŒAccessã€SQLServerå’ŒOracleä¸‰å¤§æ•°æ®åº“
+
 
 #include "stdafx.h"
 #include "AdoLx.h"
@@ -59,7 +56,7 @@ BOOL CAdoLx::Connect(EType eType, LPCTSTR szDatabase, LPCTSTR szPass, LPCTSTR sz
 	try
 	{
 		m_pConn.CreateInstance(__uuidof(Connection));
-		m_pConn->Open(_bstr_t(str), szUser, szPass, adModeUnknown);///Á¬½ÓÊı¾İ¿â
+		m_pConn->Open(_bstr_t(str), szUser, szPass, adModeUnknown);///è¿æ¥æ•°æ®åº“
 
 	}
 	catch (_com_error &e)
