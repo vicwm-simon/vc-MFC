@@ -1,9 +1,6 @@
-// AdoLx.h: Version 1.1£¨Ö§³ÖUnicode¡¢Ö§³ÖVS2015ºÍVC6±àÒë»·¾³£©
-//Ö§³ÖUnicode¡¢Ö§³ÖAccess¡¢SQLServerºÍOracleÈı´óÊı¾İ¿â
-//Author:ÂÀöÎÀÏÊ¦·â×°Àà 
-//ÂÀöÎÀÏÊ¦Î¢²©£ºhttp://t.qq.com/richmain ÂÀöÎÀÏÊ¦Î¢ĞÅ£ºrichmain
-//¸ü¶à¸üºÃµÄÊÇÏîÄ¿¿ª·¢ÊÓÆµ½Ì³Ì£¬ÇëµÇÂ¼http://www.baojy.com
-//////////////////////////////////////////////////////////////////////
+// AdoLx.h: Version 1.1ï¼ˆæ”¯æŒUnicodeã€æ”¯æŒVS2015å’ŒVC6ç¼–è¯‘ç¯å¢ƒï¼‰
+//æ”¯æŒUnicodeã€æ”¯æŒAccessã€SQLServerå’ŒOracleä¸‰å¤§æ•°æ®åº“
+
 #pragma once
 #pragma warning (disable:4146)
 #import "c:\program files\common files\system\ado\msado15.dll" no_namespace rename("EOF","adoEOF")rename("BOF","adoBOF")
